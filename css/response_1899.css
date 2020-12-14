@@ -1,0 +1,857 @@
+@media print, (max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .home .cont
+    {
+        max-width: 1280px;
+        padding: 0 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .home header
+    {
+        padding: 10px 0;
+    }
+
+    .home header .menu .item + .item
+    {
+        margin-left: 50px;
+    }
+
+    .home header .menu .item > a
+    {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+
+    .home header .where_buy_link
+    {
+        font-size: 18px;
+        line-height: 40px;
+
+        width: 130px;
+        height: 38px;
+    }
+
+
+
+    .page_anchors
+    {
+        font-size: 12px;
+
+        top: 76px;
+    }
+
+    .page_anchors span,
+    .page_anchors button
+    {
+        height: 44px;
+    }
+
+    .page_anchors button
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*--------------
+        One page
+    --------------*/
+    .one_page .cont
+    {
+        padding-top: 120px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: 40%;
+        padding: 0 20px;
+    }
+
+    .first_section .data .title
+    {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .first_section .data .title sup
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .first_section .data .sub_title
+    {
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+
+    .first_section .data ol
+    {
+        margin-top: 40px;
+    }
+
+    .first_section .data ol li
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        padding-left: 60px;
+    }
+
+    .first_section .data ol li + li
+    {
+        margin-top: 25px;
+    }
+
+    .first_section .data ol li:before
+    {
+        font-size: 28px;
+        line-height: 38px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    .first_section .col_right
+    {
+        width: 60%;
+        margin-right: -20px;
+        padding: 60px 0 60px 60px;
+    }
+
+
+    .first_section .info
+    {
+        width: 265px;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 44px;
+        line-height: 48px;
+    }
+
+    .first_section .info .link
+    {
+        font-size: 23px;
+        line-height: 52px;
+
+        width: 220px;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: calc(100% - 350px);
+    }
+
+
+
+    /*--------------------
+        Second section
+    --------------------*/
+    .second_section .data .title
+    {
+        font-size: 50px;
+        line-height: 54px;
+
+        width: 510px;
+    }
+
+    .second_section .data .title sup
+    {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    .second_section .data .exp
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        width: 49%;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .second_section .data .exp .name
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        margin-bottom: 10px;
+    }
+
+
+    /*-------------------
+        Third section
+    -------------------*/
+    .third_section .title
+    {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .third_section .sub_title
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        margin-top: 10px;
+    }
+
+
+    .third_section .row
+    {
+        width: calc(100% - 40px);
+        margin-top: 40px;
+        margin-bottom: -40px;
+    }
+
+    .third_section .row > *
+    {
+        width: calc(33.333% - 40px);
+        max-width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .third_section .item .thumb
+    {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .third_section .item .name
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .third_section .item .name sup
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .third_section .item .percent
+    {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .third_section .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 15px;
+    }
+
+    .third_section .item .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Fourth section
+    --------------------*/
+    .fourth_section .block_title
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px 30px;
+        padding: 12px 20px 8px;
+    }
+
+    .fourth_section .title
+    {
+        font-size: 21px;
+        line-height: 27px;
+
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .fourth_section .title sup
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .fourth_section .item
+    {
+        padding: 0 25px;
+    }
+
+    .fourth_section .item .icon
+    {
+        height: 90px;
+        margin-bottom: 15px;
+    }
+
+    .fourth_section .item .list
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .fourth_section .item .exp,
+    .fourth_section .item .exp2
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-top: 15px;
+    }
+
+    .fourth_section .item .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-bottom: 20px;
+    }
+
+    .fourth_section .item .name br
+    {
+        display: none;
+    }
+
+    .fourth_section .item .group
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 20px;
+    }
+
+    .fourth_section .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .fourth_section .img_register
+    {
+        top: 250px;
+        right: 20px;
+
+        width: 140px;
+    }
+
+
+
+    /*-------------------
+        Fifth section
+    -------------------*/
+    .fifth_section .block_title
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 12px 20px 8px;
+    }
+
+    .fifth_section .block_title sup
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .fifth_section .bg
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 20px;
+    }
+
+    .fifth_section .compatibility
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 320px;
+        min-height: 220px;
+        padding: 25px;
+    }
+
+    .fifth_section .compatibility .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-bottom: 10px;
+    }
+
+
+    .fifth_section .course
+    {
+        width: calc(100% - 360px);
+    }
+
+    .fifth_section .course .title
+    {
+        font-size: 36px;
+        line-height: 38px;
+
+        margin-bottom: 5px;
+    }
+
+    .fifth_section .course .title sup
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .fifth_section .course .item
+    {
+        width: calc(50% - 20px);
+    }
+
+    .fifth_section .course .item .name
+    {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+
+    .fifth_section .bottom
+    {
+        margin-top: 30px;
+    }
+
+
+    .fifth_section .pluses
+    {
+        width: calc(59% - 25px);
+    }
+
+    .fifth_section .pluses .row
+    {
+        margin-left: -60px;
+    }
+
+    .fifth_section .pluses .row > *
+    {
+        width: calc(33.333% - 60px);
+        margin-left: 60px;
+    }
+
+    .fifth_section .pluses .item
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .fifth_section .pluses .item:before
+    {
+        left: -32px;
+    }
+
+    .fifth_section .pluses .item .icon
+    {
+        height: 70px;
+        margin-bottom: 10px;
+    }
+
+
+    .fifth_section .what_going_on
+    {
+        width: calc(41% - 25px);
+    }
+
+    .fifth_section .what_going_on .title
+    {
+        font-size: 30px;
+        line-height: 34px;
+
+        width: 195px;
+    }
+
+    .fifth_section .what_going_on .items
+    {
+        font-size: 17px;
+        line-height: 20px;
+
+        width: 260px;
+    }
+
+    .fifth_section .what_going_on .items > *
+    {
+        padding-left: 35px;
+    }
+
+    .fifth_section .what_going_on .items > * + *
+    {
+        margin-top: 10px;
+    }
+
+    .fifth_section .what_going_on .items > *:before
+    {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+
+
+    /*-------------------
+        Sixth section
+    -------------------*/
+    .sixth_section .block_title
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 12px 20px 8px;
+    }
+
+
+    .sixth_section .bg
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 30px 20px;
+    }
+
+    .sixth_section .bg .img
+    {
+        width: 400px;
+        margin-right: 50px;
+    }
+
+    .sixth_section .bg .info
+    {
+        width: calc(100% - 450px);
+    }
+
+    .sixth_section .bg .info .title
+    {
+        font-size: 34px;
+        line-height: 38px;
+
+        margin-bottom: 20px;
+    }
+
+    .sixth_section .bg .info .title sup
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .sixth_section .bg .info ul li
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        padding-left: 20px;
+    }
+
+    .sixth_section .bg .info ul li + li
+    {
+        margin-top: 8px;
+    }
+
+    .sixth_section .bg .info ul li:before
+    {
+        top: 6px;
+
+        width: 8px;
+        height: 8px;
+    }
+
+    .sixth_section .bg .info .exp
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+
+
+    .sixth_section .bottom
+    {
+        margin-top: 30px;
+    }
+
+    .sixth_section .bottom .row
+    {
+        margin-bottom: -30px;
+        margin-left: -80px;
+        padding: 0 50px;
+    }
+
+    .sixth_section .bottom .row > *
+    {
+        width: calc(50% - 80px);
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+
+    .sixth_section .bottom .item
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        padding-left: 70px;
+    }
+
+
+
+    /*---------------------
+        Seventh section
+    ---------------------*/
+    .seventh_section .block_title
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px 40px;
+        padding: 12px 20px 8px;
+    }
+
+
+    .seventh_section .title
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .seventh_section .title sup
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .seventh_section .cont > .row
+    {
+        margin-top: -30px;
+        padding: 0 20px;
+    }
+
+
+    .seventh_section .img
+    {
+        width: 300px;
+    }
+
+
+    .seventh_section .items
+    {
+        width: calc(100% - 350px);
+    }
+
+    .seventh_section .items ol
+    {
+        margin-bottom: -30px;
+        margin-left: -40px;
+    }
+
+    .seventh_section .items ol > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+
+    .seventh_section .items ol li
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        padding-left: 60px;
+    }
+
+    .seventh_section .items ol li:before
+    {
+        font-size: 28px;
+        line-height: 38px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*--------------------
+        Eighth section
+    --------------------*/
+    .eighth_section .block_title
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px 30px;
+        padding: 12px 20px 8px;
+    }
+
+
+    .eighth_section .use_and_dose .title
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin: 0 auto 15px;
+    }
+
+    .eighth_section .use_and_dose .title sup
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
+    .eighth_section .use_and_dose .info
+    {
+        padding: 20px;
+    }
+
+    .eighth_section .use_and_dose .sub_title
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-bottom: 15px;
+    }
+
+    .eighth_section .use_and_dose .sub_title sup
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .eighth_section .use_and_dose .info .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-left: -15px;
+    }
+
+    .eighth_section .use_and_dose .info .item .name
+    {
+        width: calc(26% - 15px);
+        margin-left: 15px;
+    }
+
+    .eighth_section .use_and_dose .info .item .val
+    {
+        width: calc(37% - 15px);
+        margin-left: 15px;
+    }
+
+
+    .eighth_section .total_duration .title
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin: 0 auto 15px;
+    }
+
+
+    .eighth_section .video
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-top: 20px;
+        padding: 15px 30px;
+    }
+
+    .eighth_section .video .icon
+    {
+        width: 52px;
+        height: 52px;
+        margin-right: 20px;
+    }
+
+    .eighth_section .video .icon + div
+    {
+        max-width: calc(100% - 72px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    .one_page footer .bottom
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding: 12px 0 10px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

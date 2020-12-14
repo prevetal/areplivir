@@ -1,0 +1,466 @@
+@media (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu .item + .item
+    {
+        margin-left: 40px;
+    }
+
+
+
+    .page_anchors
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .message,
+    .text_block .table_wrap
+    {
+        width: calc(100% - 80px);
+        max-width: calc(100% - 80px);
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*-----------------
+        Where buy block
+    -----------------*/
+    .where_buy_block .row
+    {
+        margin-bottom: -60px;
+        margin-left: -30px;
+    }
+
+    .where_buy_block .row > *
+    {
+        width: calc(25% - 30px);
+        margin-bottom: 60px;
+        margin-left: 30px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .item + .item
+    {
+        margin-top: 40px;
+    }
+
+    .faq .item .head
+    {
+        min-height: 80px;
+        padding: 15px 25px 15px 30px;
+    }
+
+    .faq .item .data
+    {
+        padding: 0 25px 25px 30px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+
+        --articles_gutter: 30px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 20px;
+    }
+
+
+    .articles .load_more
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------------
+        Instruction
+    -----------------*/
+    .instruction .head .data
+    {
+        width: 455px;
+        margin-left: 30px;
+        padding-left: 0;
+    }
+
+    .instruction .head .img
+    {
+        margin-right: 30px;
+    }
+
+
+    .instruction .content_flex
+    {
+        padding: 0;
+    }
+
+
+
+    /*--------------
+        One page
+    --------------*/
+    .one_page .cont
+    {
+        padding-top: 76px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        padding: 0;
+    }
+
+    .first_section .data .title
+    {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .first_section .data .sub_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+
+    .first_section .data ol li
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .first_section .data ol li sup
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+
+    .first_section .info
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: 75%;
+    }
+
+
+
+    /*--------------------
+        Second section
+    --------------------*/
+    .second_section .data .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+
+        width: 395px;
+        margin-top: 300px;
+    }
+
+    .second_section .data .title sup
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .second_section .data .img
+    {
+        top: 0;
+        bottom: auto;
+
+        width: 75%;
+    }
+
+
+    .second_section .data .exp
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        width: 100%;
+        margin-top: 25px;
+        padding: 25px;
+    }
+
+    .second_section .data .exp .name
+    {
+        font-size: 36px;
+        line-height: 36px;
+
+        margin-bottom: 5px;
+    }
+
+
+
+    /*-------------------
+        Third section
+    -------------------*/
+    .third_section .row
+    {
+        margin-top: 55px;
+    }
+
+    .third_section .item .name
+    {
+        font-size: 27px;
+        line-height: 31px;
+    }
+
+
+
+    /*--------------------
+        Fourth section
+    --------------------*/
+    .fourth_section .block_title,
+    .fourth_section .title
+    {
+        margin-bottom: 45px;
+    }
+
+
+    .fourth_section .img_register
+    {
+        top: 230px;
+
+        width: 115px;
+    }
+
+
+
+    /*-------------------
+        Fifth section
+    -------------------*/
+    .fifth_section .bg
+    {
+        padding: 35px 20px;
+    }
+
+
+    .fifth_section .compatibility
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 270px;
+        min-height: 210px;
+        padding: 20px;
+    }
+
+
+    .fifth_section .course
+    {
+        width: calc(100% - 300px);
+    }
+
+
+    .fifth_section .bottom
+    {
+        margin-top: 35px;
+    }
+
+
+    .fifth_section .pluses
+    {
+        width: 100%;
+    }
+
+
+    .fifth_section .what_going_on
+    {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .fifth_section .what_going_on .title
+    {
+        font-size: 28px;
+    }
+
+
+    .fifth_section .what_going_on .items
+    {
+        display: flex;
+
+        width: calc(100% - 200px);
+
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .fifth_section .what_going_on .items > * + *
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*-------------------
+        Sixth section
+    -------------------*/
+    .sixth_section .bg
+    {
+        padding: 40px 20px;
+    }
+
+
+    .sixth_section .bottom .row
+    {
+        margin-left: -50px;
+        padding: 0 40px;
+    }
+
+    .sixth_section .bottom .row > *
+    {
+        width: calc(50% - 50px);
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+
+    .sixth_section .bottom .item
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*---------------------
+        Seventh section
+    ---------------------*/
+    .seventh_section .cont > .row
+    {
+        margin-top: 50px;
+        padding: 0;
+    }
+
+
+    .seventh_section .img
+    {
+        width: 260px;
+    }
+
+
+    .seventh_section .items
+    {
+        width: calc(100% - 301px);
+    }
+
+
+
+    /*--------------------
+        Eighth section
+    --------------------*/
+    .eighth_section .use_and_dose
+    {
+        width: 100%;
+    }
+
+
+    .eighth_section .total_duration
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .eighth_section .total_duration img
+    {
+        max-width: 60%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-top: 50px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

@@ -1,0 +1,391 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+
+    header .where_buy_link,
+    .home header .where_buy_link
+    {
+        font-size: 17px;
+
+        width: 110px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .content_links
+    {
+        padding: 20px;
+    }
+
+    aside .content_links > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .message
+    {
+        padding: 125px 20px 20px 20px;
+    }
+
+
+
+    /*-----------------
+        Where buy block
+    -----------------*/
+    .where_buy_block .row
+    {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+
+    .where_buy_block .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+
+    .where_buy_block .item img
+    {
+        max-height: 80px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .info
+    {
+        padding: 20px;
+    }
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 15px;
+    }
+
+
+
+    /*-----------------
+        Instruction
+    -----------------*/
+    .instruction .head .title
+    {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .instruction .head .desc
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-top: 5px;
+    }
+
+
+    .instruction .head .img
+    {
+        width: 280px;
+    }
+
+
+
+    /*--------------
+        One page
+    --------------*/
+    .one_page
+    {
+        padding-top: 65px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data .title
+    {
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    .first_section .data .sub_title
+    {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+
+
+    /*--------------------
+        Second section
+    --------------------*/
+    .second_section .data .title
+    {
+        font-size: 31px;
+        line-height: 33px;
+    }
+
+
+    .second_section .data .exp
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 25px;
+        padding: 20px;
+    }
+
+    .second_section .data .exp .name
+    {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+
+
+    /*-------------------
+        Third section
+    -------------------*/
+    .third_section .title
+    {
+        font-size: 31px;
+        line-height: 33px;
+    }
+
+    .third_section .sub_title
+    {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+
+
+    /*--------------------
+        Fourth section
+    --------------------*/
+    .fourth_section .block_title
+    {
+        font-size: 30px;
+        line-height: 31px;
+    }
+
+
+    .fourth_section .img_register
+    {
+        top: 205px;
+        right: 10px;
+
+        width: 90px;
+    }
+
+
+
+    /*-------------------
+        Fifth section
+    -------------------*/
+    .fifth_section .block_title
+    {
+        font-size: 30px;
+        line-height: 31px;
+    }
+
+
+    .fifth_section .course .title
+    {
+        font-size: 31px;
+        line-height: 33px;
+    }
+
+
+    .fifth_section .pluses .row > *
+    {
+        width: calc(100% - 40px);
+    }
+
+    .fifth_section .pluses .item:before,
+    .fifth_section .pluses .item:nth-child(3):before
+    {
+        top: -22px;
+        left: 0;
+
+        width: calc(200% + 40px);
+        height: 2px;
+    }
+
+
+    .fifth_section .what_going_on .title
+    {
+        font-size: 26px;
+        line-height: 28px;
+
+        margin-bottom: 15px;
+    }
+
+
+
+    /*-------------------
+        Sixth section
+    -------------------*/
+    .sixth_section .block_title
+    {
+        font-size: 30px;
+        line-height: 31px;
+    }
+
+
+
+    /*---------------------
+        Seventh section
+    ---------------------*/
+    .seventh_section .block_title
+    {
+        font-size: 30px;
+        line-height: 31px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .seventh_section .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .seventh_section .cont > .row
+    {
+        margin-top: 25px;
+    }
+
+
+    .seventh_section .items ol li
+    {
+        line-height: 21px;
+    }
+
+
+
+    /*--------------------
+        Eighth section
+    --------------------*/
+    .eighth_section .block_title
+    {
+        font-size: 30px;
+        line-height: 31px;
+    }
+
+
+    .eighth_section .use_and_dose .info .item .val
+    {
+        width: calc(100% - 15px);
+    }
+
+    .eighth_section .use_and_dose .info .item .val + .val
+    {
+        margin-top: 5px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        border-radius: 20px;
+    }
+
+    .modal_title
+    {
+        font-size: 28px;
+        line-height: 36px;
+
+        padding: 20px 30px;
+    }
+
+    .modal_data
+    {
+        padding: 30px;
+    }
+
+    .modal .links
+    {
+        margin-top: 25px;
+    }
+
+    .modal .links > *
+    {
+        width: calc(100% - 10px);
+        max-width: calc(100% - 10px);
+    }
+
+    .modal .links > * + *
+    {
+        margin-top: 15px;
+    }
+}

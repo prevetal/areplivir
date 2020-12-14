@@ -1,0 +1,779 @@
+@media (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 20px);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        font-size: 36px;
+        line-height: 36px;
+
+        margin-right: auto;
+    }
+
+    header .slogan
+    {
+        font-size: 14px;
+        line-height: 16px;
+
+        display: none;
+
+        margin-left: 15px;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 20px;
+    }
+
+    header .menu .item > a
+    {
+        font-size: 19px;
+    }
+
+
+    header .where_buy_link
+    {
+        font-size: 19px;
+        line-height: 41px;
+    }
+
+
+
+    .home header .menu .item + .item
+    {
+        margin-left: 25px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .page_head .cont > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+    .page_title
+    {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .text_block h2
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .text_block .message,
+    .text_block .table_wrap,
+    .text_block .img
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .text_block .message,
+    .text_block .table_wrap
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .text_block ul
+    {
+        padding-left: 0;
+    }
+
+
+
+    /*-----------------
+        Where buy block
+    -----------------*/
+    .where_buy_block .row > *
+    {
+        width: calc(33.333% - 30px);
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .item + .item
+    {
+        margin-top: 30px;
+    }
+
+    .faq .item .head
+    {
+        min-height: 60px;
+        padding: 15px 20px 15px 25px;
+    }
+
+    .faq .item .data
+    {
+        padding: 0 20px 25px 25px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .articles .article .info
+    {
+        padding: 25px;
+    }
+
+    .articles .article .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*-----------------
+        Instruction
+    -----------------*/
+    .instruction .head .cont
+    {
+        min-height: 0;
+    }
+
+
+    .instruction .head .data
+    {
+        width: 285px;
+        margin-left: 0;
+    }
+
+    .instruction .head .title
+    {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .instruction .head .desc
+    {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+
+    .instruction .head .img
+    {
+        width: 320px;
+        margin-right: 0;
+    }
+
+
+
+    /*--------------
+        One page
+    --------------*/
+    .one_page
+    {
+        width: 100%;
+        height: auto;
+        padding-top: 69px;
+    }
+
+    .one_page .cont
+    {
+        height: auto;
+        padding-top: 0;
+    }
+
+    .onepage-wrapper .section
+    {
+        height: auto;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        order: 3;
+    }
+
+    .first_section .data .title
+    {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .first_section .data .title sup
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .first_section .data .sub_title
+    {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+
+    .first_section .data ol
+    {
+        margin-top: 25px;
+    }
+
+
+    .first_section .col_right
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 50px 20px;
+    }
+
+
+    .first_section .info
+    {
+        width: 350px;
+        margin-bottom: 0;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .first_section .info .link
+    {
+        font-size: 22px;
+        line-height: 50px;
+
+        width: 200px;
+        height: 45px;
+        margin-top: 25px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: calc(100% - 420px);
+    }
+
+
+
+    /*--------------------
+        Second section
+    --------------------*/
+    .second_section
+    {
+        padding: 50px 0;
+    }
+
+    .second_section .data .title
+    {
+        font-size: 40px;
+        line-height: 42px;
+
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .second_section .data .exp
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .second_section .data .exp .name
+    {
+        font-size: 30px;
+        line-height: 32px;
+
+        margin-bottom: 5px;
+    }
+
+
+    .second_section .data .img
+    {
+        position: relative;
+
+        width: auto;
+        max-width: 100%;
+        margin-top: 25px;
+    }
+
+
+
+    /*-------------------
+        Third section
+    -------------------*/
+    .third_section
+    {
+        padding: 50px 0;
+    }
+
+    .third_section .title
+    {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .third_section .sub_title
+    {
+        font-size: 32px;
+        line-height: 32px;
+
+        margin-top: 10px;
+    }
+
+
+    .third_section .row
+    {
+        margin-top: 40px;
+    }
+
+
+    .third_section .item .name
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .third_section .item .name sup
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .third_section .item .percent
+    {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .third_section .item .desc
+    {
+        font-size: 13px;
+        line-height: 18px;
+
+        margin-top: 15px;
+    }
+
+
+
+    /*--------------------
+        Fourth section
+    --------------------*/
+    .fourth_section
+    {
+        padding-bottom: 50px;
+    }
+
+    .fourth_section .block_title
+    {
+        font-size: 36px;
+        line-height: 37px;
+
+        margin-bottom: 30px;
+    }
+
+    .fourth_section .title
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .fourth_section .item
+    {
+        padding: 0;
+    }
+
+    .fourth_section .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .fourth_section .row > * + *
+    {
+        margin-top: 52px;
+    }
+
+    .fourth_section .item:before
+    {
+        top: -27px;
+        left: 0;
+
+        width: 100%;
+        height: 2px;
+    }
+
+
+
+    /*-------------------
+        Fifth section
+    -------------------*/
+    .fifth_section
+    {
+        padding-bottom: 50px;
+    }
+
+    .fifth_section .block_title
+    {
+        font-size: 36px;
+        line-height: 37px;
+    }
+
+
+    .fifth_section .compatibility
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        width: 100%;
+        min-height: 0;
+        margin-top: 30px;
+        padding: 20px;
+
+        order: 3;
+    }
+
+
+    .fifth_section .course
+    {
+        width: 100%;
+    }
+
+    .fifth_section .course .title
+    {
+        font-size: 32px;
+        line-height: 34px;
+
+        margin-bottom: 10px;
+    }
+
+    .fifth_section .course .item
+    {
+        width: calc(50% - 15px);
+    }
+
+    .fifth_section .course .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    .fifth_section .what_going_on
+    {
+        flex-wrap: wrap;
+    }
+
+    .fifth_section .what_going_on .title
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .fifth_section .what_going_on .title br
+    {
+        display: none;
+    }
+
+    .fifth_section .what_going_on .items
+    {
+        width: 100%;
+    }
+
+    .fifth_section .what_going_on .items > *
+    {
+        padding-left: 25px;
+    }
+
+    .fifth_section .what_going_on .items > *:before
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*-------------------
+        Sixth section
+    -------------------*/
+    .sixth_section
+    {
+        padding-bottom: 50px;
+    }
+
+    .sixth_section .block_title
+    {
+        font-size: 36px;
+        line-height: 37px;
+    }
+
+
+    .sixth_section .bg .img
+    {
+        width: 320px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .sixth_section .bg .info
+    {
+        width: 100%;
+    }
+
+    .sixth_section .bg .info ul li
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+    .sixth_section .bottom .row
+    {
+        margin-left: -30px;
+        padding: 0;
+    }
+
+    .sixth_section .bottom .row > *
+    {
+        width: calc(50% - 30px);
+        margin-left: 30px;
+    }
+
+    .sixth_section .bottom .item
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        min-height: 56px;
+        padding-left: 50px;
+
+        background-position: 0 4px;
+        background-size: auto 52px;
+    }
+
+
+
+    /*---------------------
+        Seventh section
+    ---------------------*/
+    .seventh_section
+    {
+        padding-bottom: 50px;
+    }
+
+    .seventh_section .block_title
+    {
+        font-size: 36px;
+        line-height: 37px;
+    }
+
+    .seventh_section .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .seventh_section .title sup
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .seventh_section .row
+    {
+        margin-top: 30px;
+    }
+
+    .seventh_section .img
+    {
+        display: none;
+    }
+
+    .seventh_section .items
+    {
+        width: 100%;
+    }
+
+    .seventh_section .items ol
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+    .seventh_section .items ol li
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        padding-left: 60px;
+    }
+
+    .seventh_section .items ol > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+
+    /*--------------------
+        Eighth section
+    --------------------*/
+    .eighth_section .block_title
+    {
+        font-size: 36px;
+        line-height: 37px;
+    }
+
+
+    .eighth_section .total_duration
+    {
+        margin-top: 40px;
+    }
+
+    .eighth_section .total_duration img
+    {
+        max-width: 80%;
+    }
+
+
+    .eighth_section .video
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding: 20px 0;
+    }
+
+
+    footer .bottom
+    {
+        line-height: 20px;
+
+        padding: 15px 0;
+    }
+
+
+    footer .menu .item + .item
+    {
+        margin-left: 40px;
+    }
+
+
+
+    .one_page footer
+    {
+        position: relative;
+
+        margin-top: 50px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 30px;
+    }
+
+
+
+    .modal_title
+    {
+        font-size: 34px;
+        line-height: 46px;
+
+        padding: 20px 55px;
+    }
+
+    .modal_data
+    {
+        padding: 35px 55px 45px;
+    }
+}
