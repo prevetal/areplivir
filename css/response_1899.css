@@ -3,7 +3,7 @@
     /*-------------------
         Global styles
     -------------------*/
-    .home .cont
+    .cont.big_w
     {
         max-width: 1280px;
         padding: 0 20px;

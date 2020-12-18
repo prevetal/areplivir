@@ -721,6 +721,334 @@
 
 
 
+    /*----------------------------------
+        Favipiravir info - Head info
+    ----------------------------------*/
+    .favipiravir_info .head_info .title
+    {
+        font-size: 34px;
+    }
+
+    .favipiravir_info .head_info .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*----------------------------------
+        Favipiravir info - Mechanism
+    ----------------------------------*/
+    .favipiravir_info .mechanism .head .title
+    {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+
+    .favipiravir_info .mechanism .head .steps
+    {
+        font-size: 17px;
+    }
+
+    .favipiravir_info .mechanism .head .step:after
+    {
+        right: calc(100% + 20px);
+    }
+
+
+    .favipiravir_info .mechanism .info
+    {
+        width: calc(50% + 80px);
+        margin-top: -75px;
+    }
+
+    .favipiravir_info .mechanism .info img
+    {
+        width: 124px;
+    }
+
+    .favipiravir_info .mechanism .info .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: calc(100% - 154px);
+    }
+
+
+
+    /*--------------------------------
+        Favipiravir info - Formula
+    --------------------------------*/
+    .favipiravir_info .formula .img
+    {
+        width: 280px;
+    }
+
+
+    .favipiravir_info .formula .info
+    {
+        width: calc(100% - 310px);
+    }
+
+    .favipiravir_info .formula .info .title
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .favipiravir_info .formula .bottom
+    {
+        font-size: 22px;
+        line-height: 30px;
+
+        padding: 22px 32px;
+    }
+
+
+
+    /*-----------------------------------
+        Favipiravir info - Efficiency
+    -----------------------------------*/
+    .favipiravir_info .efficiency .block_title
+    {
+        font-size: 32px;
+        line-height: 38px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .favipiravir_info .efficiency .info
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 280px;
+    }
+
+
+    .favipiravir_info .efficiency .img
+    {
+        max-width: calc(100% - 310px);
+    }
+
+
+
+    /*-------------------------------
+        Favipiravir info - Charts
+    -------------------------------*/
+    .favipiravir_info .charts
+    {
+        padding: 40px 0;
+    }
+
+
+    .favipiravir_info .charts .items
+    {
+        max-width: calc(100% - 230px);
+    }
+
+
+    .favipiravir_info .charts .chart
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        padding: 15px 10px 10px;
+    }
+
+
+    .favipiravir_info .charts .info
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 220px;
+    }
+
+
+
+    /*---------------------------------
+        Favipiravir info - Footnote
+    ---------------------------------*/
+    .favipiravir_info .footnote
+    {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+
+
+    /*------------------------------------
+        Favipiravir info - Portability
+    ------------------------------------*/
+    .favipiravir_info .portability .block_title
+    {
+        font-size: 32px;
+        line-height: 38px;
+
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+
+    .favipiravir_info .portability .col,
+    .favipiravir_info .portability .col + .col
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    .favipiravir_info .portability .table_title
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-bottom: 25px;
+        padding: 20px 30px;
+    }
+
+
+    .favipiravir_info .portability .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        padding: 0;
+    }
+
+
+    .favipiravir_info .portability .bottom
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-top: 25px;
+        padding: 20px 25px;
+    }
+
+    .favipiravir_info .portability .bottom .exp
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*--------------------------------------
+        Favipiravir info - Observ. study
+    --------------------------------------*/
+    .favipiravir_info .observ_study .block_title
+    {
+        font-size: 32px;
+        line-height: 38px;
+
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+
+    .favipiravir_info .observ_study .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 280px;
+    }
+
+    .favipiravir_info .observ_study .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .favipiravir_info .observ_study .table
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        max-width: calc(100% - 320px);
+    }
+
+
+    .favipiravir_info .observ_study .bottom
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-top: 30px;
+        padding: 20px 42px;
+    }
+
+
+
+    /*----------------------------------
+        Favipiravir info - Confirmed
+    ----------------------------------*/
+    .favipiravir_info .confirmed .block_title
+    {
+        font-size: 32px;
+        line-height: 38px;
+
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+
+    .favipiravir_info .confirmed .info .exp
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        padding: 20px 25px;
+    }
+
+
+    .favipiravir_info .confirmed .info .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 25px;
+    }
+
+    .favipiravir_info .confirmed .info .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .favipiravir_info .confirmed .chart
+    {
+        padding: 22px;
+    }
+
+    .favipiravir_info .confirmed .chart .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .favipiravir_info .confirmed .bottom
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 30px;
+        padding: 22px 42px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

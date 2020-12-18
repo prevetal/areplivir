@@ -267,7 +267,7 @@ button
     padding: 0 20px;
 }
 
-.home .cont
+.cont.big_w
 {
     max-width: 100%;
     padding: 0 30px;
@@ -3210,6 +3210,935 @@ aside .content_links button.active
 .eighth_section .video span
 {
     color: #e3397f;
+}
+
+
+
+/*----------------------------------
+    Favipiravir info - Head info
+----------------------------------*/
+.favipiravir_info .head_info
+{
+    margin-bottom: 35px;
+}
+
+.favipiravir_info .head_info .title
+{
+    color: #e61670;
+    font-size: 41px;
+    font-weight: 700;
+
+    display: block;
+
+    text-transform: uppercase;
+}
+
+.favipiravir_info .head_info .desc
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    margin-top: 20px;
+}
+
+.favipiravir_info .head_info .desc b,
+.favipiravir_info .head_info .desc strong
+{
+    font-weight: 600;
+}
+
+
+
+/*----------------------------------
+    Favipiravir info - Mechanism
+----------------------------------*/
+.favipiravir_info .mechanism
+{
+    margin-bottom: 45px;
+}
+
+
+.favipiravir_info .mechanism .head
+{
+    margin-bottom: 30px;
+
+    background: #ecf5ff;
+}
+
+
+.favipiravir_info .mechanism .head .cont.row
+{
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+.favipiravir_info .mechanism .head .title
+{
+    color: #e61670;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 35px;
+
+    width: calc(33.333% - 15px);
+
+    text-transform: uppercase;
+}
+
+
+.favipiravir_info .mechanism .head .steps
+{
+    color: #888;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 21px;
+
+    display: flex;
+
+    width: calc(66.666% - 15px);
+
+    counter-reset: step;
+    text-transform: uppercase;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.favipiravir_info .mechanism .head .step
+{
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+
+    width: calc(50% - 15px);
+    min-height: 104px;
+    padding-left: 42px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.favipiravir_info .mechanism .head .step:after
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: calc(100% + 75px);
+
+    display: block;
+
+    width: 132px;
+    height: 100%;
+
+    content: '';
+    pointer-events: none;
+
+    background: url(../images/bg_mechanism_step.png) 0 50% no-repeat;
+}
+
+.favipiravir_info .mechanism .head .step:before
+{
+    color: #e61670;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 89px;
+
+    position: absolute;
+    top: 6px;
+    bottom: 0;
+    left: 0;
+
+    height: 89px;
+    margin: auto;
+
+    content: counters(step, '') '';
+    counter-increment: step;
+}
+
+.favipiravir_info .mechanism .head .step:nth-child(2n):before
+{
+    color: #585ea7;
+}
+
+
+.favipiravir_info .mechanism .data .img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.favipiravir_info .mechanism .info
+{
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+
+    width: 620px;
+    max-width: 100%;
+    margin-top: -105px;
+    margin-right: 100px;
+    margin-left: auto;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.favipiravir_info .mechanism .info img
+{
+    display: block;
+
+    width: 164px;
+    max-width: 100%;
+}
+
+.favipiravir_info .mechanism .info .text_block
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    width: calc(100% - 204px);
+}
+
+.favipiravir_info .mechanism .info .text_block b,
+.favipiravir_info .mechanism .info .text_block strong
+{
+    font-weight: 600;
+}
+
+
+
+/*--------------------------------
+    Favipiravir info - Formula
+--------------------------------*/
+.favipiravir_info .formula
+{
+    padding: 56px 0 34px;
+
+    background: #ecf5ff;
+}
+
+.favipiravir_info .formula .cont.row
+{
+    justify-content: space-between;
+}
+
+
+.favipiravir_info .formula .img
+{
+    width: 430px;
+    max-width: calc(50% - 15px);
+}
+
+.favipiravir_info .formula .img img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.favipiravir_info .formula .info
+{
+    width: calc(100% - 500px);
+    max-width: 100%;
+}
+
+
+.favipiravir_info .formula .info .title
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    width: 450px;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.favipiravir_info .formula .info ul
+{
+    column-gap: 22px;
+    column-count: 2;
+}
+
+.favipiravir_info .formula .info ul > *
+{
+    transform: translateZ(0);
+
+    --webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.favipiravir_info .formula .info ul li
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 13px;
+    line-height: 19px;
+
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 22px;
+
+    list-style-type: none;
+}
+
+.favipiravir_info .formula .info ul li + li
+{
+    margin-top: 8px;
+}
+
+.favipiravir_info .formula .info ul li:before
+{
+    position: absolute;
+    top: 6px;
+    left: 0;
+
+    display: block;
+
+    width: 8px;
+    height: 8px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #ec2367;
+}
+
+
+.favipiravir_info .formula .bottom
+{
+    color: #191919;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+
+    width: 100%;
+    margin-top: 22px;
+    padding: 32px 42px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    border-radius: 27px;
+    background: #fff;
+}
+
+.favipiravir_info .formula .bottom b,
+.favipiravir_info .formula .bottom strong
+{
+    color: #e42072;
+}
+
+
+
+/*-----------------------------------
+    Favipiravir info - Efficiency
+-----------------------------------*/
+.favipiravir_info .efficiency
+{
+    padding: 40px 0;
+}
+
+
+.favipiravir_info .efficiency .block_title
+{
+    color: #4b657e;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.favipiravir_info .efficiency .block_title span
+{
+    color: #e42072;
+}
+
+
+.favipiravir_info .efficiency .row
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.favipiravir_info .efficiency .info
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    width: 355px;
+    max-width: 100%;
+}
+
+.favipiravir_info .efficiency .info b
+{
+    color: #e42072;
+}
+
+.favipiravir_info .efficiency .img
+{
+    display: block;
+
+    max-width: calc(100% - 440px);
+    margin-left: auto;
+}
+
+
+
+/*-------------------------------
+    Favipiravir info - Charts
+-------------------------------*/
+.favipiravir_info .charts
+{
+    padding: 20px 0;
+
+    background: #ecf5ff;
+}
+
+
+.favipiravir_info .charts .cont
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.favipiravir_info .charts .items
+{
+    display: flex;
+
+    width: 620px;
+    max-width: calc(100% - 440px);
+    margin-bottom: -20px;
+    margin-left: -20px;
+
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.favipiravir_info .charts .items > *
+{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.favipiravir_info .charts .chart
+{
+    color: #4b657e;
+    font-family: var(--font_family2);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    text-align: center;
+
+    background: #fff;
+}
+
+.favipiravir_info .charts .chart .name
+{
+    flex: 1 0 auto;
+}
+
+.favipiravir_info .charts .chart img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 15px auto 0;
+}
+
+
+.favipiravir_info .charts .info
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    width: 390px;
+    max-width: 100%;
+}
+
+.favipiravir_info .charts .info b
+{
+    color: #4b657e;
+}
+
+
+
+/*---------------------------------
+    Favipiravir info - Footnote
+---------------------------------*/
+.favipiravir_info .footnote
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 15px;
+    line-height: 21px;
+
+    width: 100%;
+    margin-top: 30px;
+
+    counter-reset: item;
+    word-break: break-all;
+}
+
+.favipiravir_info .footnote > *
+{
+    position: relative;
+
+    padding-left: 20px;
+}
+
+.favipiravir_info .footnote > *:before
+{
+    color: #e42072;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    content: counters(item, '.') '.';
+    counter-increment: item;
+}
+
+.favipiravir_info .footnote > * + *
+{
+    margin-top: 4px;
+}
+
+.favipiravir_info .footnote a
+{
+    color: #4e96d6;
+}
+
+.favipiravir_info .footnote a:hover
+{
+    text-decoration: none;
+}
+
+
+
+/*------------------------------------
+    Favipiravir info - Portability
+------------------------------------*/
+.favipiravir_info .portability
+{
+    padding: 40px 0;
+}
+
+
+.favipiravir_info .portability .block_title
+{
+    color: #4b657e;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+
+    margin-bottom: 40px;
+    padding: 0 70px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.favipiravir_info .portability .block_title span
+{
+    color: #e42072;
+}
+
+
+.favipiravir_info .portability .row
+{
+    justify-content: space-between;
+}
+
+.favipiravir_info .portability .col
+{
+    width: calc(50% - 20px);
+}
+
+.favipiravir_info .portability .col + .col
+{
+    width: calc(50% - 40px);
+}
+
+
+.favipiravir_info .portability .table_title
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+
+    position: relative;
+
+    margin-bottom: 35px;
+    padding: 20px 60px;
+
+    text-align: center;
+
+    background: #ecf5ff;
+}
+
+.favipiravir_info .portability .table_title:after
+{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+
+    display: block;
+
+    width: 30px;
+    height: 15px;
+    margin: auto;
+
+    content: '';
+
+    border-top: 15px solid #ecf5ff;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+
+.favipiravir_info .portability .table_img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.favipiravir_info .portability .text_block
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    padding: 20px 12px;
+}
+
+.favipiravir_info .portability .text_block b,
+.favipiravir_info .portability .text_block strong
+{
+    font-weight: 600;
+}
+
+
+.favipiravir_info .portability .bottom
+{
+    color: #1b1b1b;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+
+    margin-top: 17px;
+    padding: 22px 42px;
+
+    text-transform: uppercase;
+
+    border-radius: 20px;
+    background: #e0f4e0;
+}
+
+.favipiravir_info .portability .bottom span
+{
+    color: #e42072;
+}
+
+.favipiravir_info .portability .bottom .exp
+{
+    color: #4f4f4f;
+    font-family: var(--font_family2);
+    font-size: 13px;
+    line-height: 19px;
+
+    margin-top: 15px;
+
+    text-transform: none;
+}
+
+
+
+/*--------------------------------------
+    Favipiravir info - Observ. study
+--------------------------------------*/
+.favipiravir_info .observ_study
+{
+    padding: 40px 0;
+}
+
+
+.favipiravir_info .observ_study .block_title
+{
+    color: #4b657e;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+
+    margin-bottom: 50px;
+    padding: 0 90px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.favipiravir_info .observ_study .block_title span
+{
+    color: #e42072;
+}
+
+
+.favipiravir_info .observ_study .row
+{
+    justify-content: space-between;
+}
+
+
+.favipiravir_info .observ_study .text_block
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    width: 380px;
+    max-width: 100%;
+}
+
+.favipiravir_info .observ_study .text_block > *
+{
+    margin-bottom: 27px;
+}
+
+.favipiravir_info .observ_study .text_block .pink
+{
+    color: #e42072;
+}
+
+.favipiravir_info .observ_study .text_block b,
+.favipiravir_info .observ_study .text_block strong
+{
+    font-weight: 600;
+}
+
+
+.favipiravir_info .observ_study .table
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    width: 600px;
+    max-width: calc(100% - 420px);
+}
+
+.favipiravir_info .observ_study .table img
+{
+    display: block;
+
+    max-width: 100%;
+}
+
+.favipiravir_info .observ_study .table > * + *
+{
+    margin-top: 25px;
+}
+
+
+.favipiravir_info .observ_study .bottom
+{
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+
+    margin-top: 40px;
+    padding: 22px 122px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    border-radius: 20px;
+    background: #ecf5ff;
+}
+
+
+
+/*----------------------------------
+    Favipiravir info - Confirmed
+----------------------------------*/
+.favipiravir_info .confirmed
+{
+    padding: 40px 0 0;
+}
+
+
+.favipiravir_info .confirmed .block_title
+{
+    color: #4b657e;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+
+    margin-bottom: 45px;
+    padding: 0 90px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.favipiravir_info .confirmed .block_title span
+{
+    color: #e42072;
+}
+
+
+.favipiravir_info .confirmed .row
+{
+    justify-content: space-between;
+}
+
+
+.favipiravir_info .confirmed .info
+{
+    width: calc(50% - 15px);
+    margin-right: auto;
+}
+
+.favipiravir_info .confirmed .info .exp
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+
+    padding: 25px 65px;
+
+    background: #ecf5ff;
+}
+
+.favipiravir_info .confirmed .info .text_block
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    line-height: 29px;
+
+    margin-top: 35px;
+}
+
+.favipiravir_info .confirmed .info .text_block > *
+{
+    margin-bottom: 30px;
+}
+
+.favipiravir_info .confirmed .info .text_block b,
+.favipiravir_info .confirmed .info .text_block strong
+{
+    font-weight: 600;
+}
+
+
+.favipiravir_info .confirmed .chart
+{
+    width: calc(50% - 15px);
+    margin-left: auto;
+    padding: 42px;
+
+    text-align: center;
+
+    border: 2px solid #ecf5ff;
+}
+
+.favipiravir_info .confirmed .chart .name
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+
+    margin-bottom: 25px;
+}
+
+.favipiravir_info .confirmed .chart img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.favipiravir_info .confirmed .bottom
+{
+    color: #000;
+    font-family: var(--font_family2);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+
+    margin-top: 40px;
+    padding: 42px 117px;
+
+    text-align: center;
+
+    border-radius: 20px;
+    background: #e0f4e0;
 }
 
 
