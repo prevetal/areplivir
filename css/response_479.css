@@ -495,6 +495,267 @@
 
 
 
+    /*-------------------
+        First section2
+    -------------------*/
+    .first_section2 .info
+    {
+        padding-bottom: 120px;
+    }
+
+    .first_section2 .info .title
+    {
+        font-size: 29px;
+    }
+
+    .first_section2 .info .link
+    {
+        font-size: 17px;
+        line-height: 40px;
+
+        height: 40px;
+        margin-top: 20px;
+        padding: 0 24px;
+    }
+
+
+    .first_section2 .image
+    {
+        top: 164px;
+    }
+
+    .first_section2 .image img
+    {
+        width: 272px;
+    }
+
+
+
+    .first_section2 .number_cases .title
+    {
+        font-size: 20px;
+    }
+
+    .first_section2 .number_cases .item
+    {
+        font-size: 20px;
+    }
+
+    .first_section2 .number_cases .item + .item
+    {
+        margin-left: 24px;
+    }
+
+    .first_section2 .number_cases .val
+    {
+        line-height: 36px;
+
+        padding: 0 12px;
+    }
+
+
+
+    /*---------------------
+        Second section2
+    ---------------------*/
+    .second_section2 .block_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .second_section2 .block_title br
+    {
+        display: none;
+    }
+
+
+    .second_section2 .message img
+    {
+        width: 44px;
+    }
+
+    .second_section2 .message
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 16px 20px;
+    }
+
+    .second_section2 .message img + div
+    {
+        width: calc(100% - 64px);
+    }
+
+
+
+    /*--------------------
+        Third section2
+    --------------------*/
+    .third_section2 .block_title
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .third_section2 .info .title
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .third_section2 .info .desc div
+    {
+        width: 100%;
+    }
+
+    .third_section2 .info .desc img
+    {
+        margin: 20px auto 0;
+    }
+
+
+    .third_section2 .items .list
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*---------------------
+        Fourth section2
+    ---------------------*/
+    .fourth_section2 .block_title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        width: 100%;
+    }
+
+
+    .fourth_section2 .block_desc
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+    .fourth_section2 .items .item
+    {
+        line-height: 19px;
+    }
+
+    .fourth_section2 .items .item .icon
+    {
+        width: 44px;
+    }
+
+    .fourth_section2 .items .item .desc
+    {
+        width: calc(100% - 64px);
+    }
+
+
+
+    .fifth_section2 .use_and_dose .info .item .name
+    {
+        width: calc(100% - 15px);
+        margin-bottom: 12px;
+    }
+
+    .fifth_section2 .use_and_dose .info .item .name br
+    {
+        display: none;
+    }
+
+    .fifth_section2 .use_and_dose .info .item .val
+    {
+        width: calc(100% - 15px);
+    }
+
+    .fifth_section2 .use_and_dose .info .item .val + .val
+    {
+        margin-top: 5px;
+    }
+
+
+
+    .fifth_section2 .total_duration .title
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+    /*--------------------
+        Sixth section2
+    --------------------*/
+    .sixth_section2 .block_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .sixth_section2 .item .img
+    {
+        height: 192px;
+    }
+
+
+
+    /*----------------------
+        Seventh section2
+    ----------------------*/
+    .seventh_section2 .block_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .seventh_section2 .info .img
+    {
+        right: 0;
+
+        width: 208px;
+    }
+
+
+    .seventh_section2 .analysis
+    {
+        margin-top: 72px;
+    }
+
+
+
+    /*---------------------
+        Eighth section2
+    ---------------------*/
+    .eighth_section2 .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .eighth_section2 .items .item
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
     /*------------
         Footer
     ------------*/

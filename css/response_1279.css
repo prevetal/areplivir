@@ -781,6 +781,340 @@
 
 
 
+
+    /*-------------------
+        First section2
+    -------------------*/
+    .first_section2 .info
+    {
+        width: 50%;
+        margin-left: 0;
+    }
+
+
+    .first_section2 .info .title
+    {
+        font-size: 42px;
+    }
+
+    .first_section2 .info .title small
+    {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+
+    .first_section2 .info .link
+    {
+        padding: 0 32px;
+    }
+
+
+    .first_section2 .image
+    {
+        width: 50%;
+        margin-right: 0;
+    }
+
+
+    .first_section2 .number_cases
+    {
+        padding: 16px 0;
+    }
+
+    .first_section2 .number_cases .title
+    {
+        font-size: 24px;
+    }
+
+    .first_section2 .number_cases .item
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*---------------------
+        Second section2
+    ---------------------*/
+    .second_section2 .block_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+
+    .second_section2 .items
+    {
+        width: calc(100% + 32px);
+        margin-top: 32px;
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+
+    .second_section2 .message
+    {
+        display: flex;
+
+        width: 100%;
+        margin-top: 32px;
+        padding: 22px;
+
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .second_section2 .message img
+    {
+        margin: 0;
+    }
+
+    .second_section2 .message img + div
+    {
+        width: calc(100% - 79px);
+        margin-left: auto;
+    }
+
+
+
+    /*--------------------
+        Third section2
+    --------------------*/
+    .third_section2 .block_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+
+        margin-bottom: 0;
+    }
+
+
+    .third_section2 .info .title
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .third_section2 .items
+    {
+        padding: 28px;
+    }
+
+    .third_section2 .items .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .third_section2 .items.list
+    {
+        column-gap: 28px;
+        column-count: 2;
+    }
+
+    .third_section2 .items .list > *:before
+    {
+        top: 7px;
+    }
+
+
+
+    /*---------------------
+        Fourth section2
+    ---------------------*/
+    .fourth_section2 .block_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+
+        width: 412px;
+    }
+
+
+    .fourth_section2 .block_desc
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+
+    .fourth_section2 .items
+    {
+        width: calc(100% + 24px);
+        margin-top: 52px;
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .fourth_section2 .items .item
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+        padding: 24px;
+    }
+
+    .fourth_section2 .items .item .icon
+    {
+        height: 72px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*--------------------
+        Fifth section2
+    --------------------*/
+    .fifth_section2 .block_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .fifth_section2 .use_and_dose
+    {
+        width: calc(50% - 32px);
+    }
+
+    .fifth_section2 .use_and_dose .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .fifth_section2 .use_and_dose .sub_title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+
+
+    /*--------------------
+        Sixth section2
+    --------------------*/
+    .sixth_section2 .block_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+
+    .sixth_section2 .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .sixth_section2 .item
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*----------------------
+        Seventh section2
+    ----------------------*/
+    .seventh_section2 .block_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .seventh_section2 .info
+    {
+        width: 50%;
+        padding: 24px 52px 24px 28px;
+    }
+
+    .seventh_section2 .info .title
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .seventh_section2 .info .img
+    {
+        width: 272px;
+    }
+
+
+    .seventh_section2 .analysis
+    {
+        width: 240px;
+    }
+
+    .seventh_section2 .analysis .icon
+    {
+        height: 72px;
+        margin-bottom: 16px;
+    }
+
+    .seventh_section2 .analysis .title,
+    .seventh_section2 .analysis .desc
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+    /*---------------------
+        Eighth section2
+    ---------------------*/
+    .eighth_section2 .items
+    {
+        width: calc(100% + 24px);
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .eighth_section2 .items .item
+    {
+        width: calc(20% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*--------------------
+        Ninth section2
+    --------------------*/
+    .ninth_section2 .block_title
+    {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+
+    .ninth_section2 .map_wrap .info
+    {
+        width: 428px;
+        padding: 24px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

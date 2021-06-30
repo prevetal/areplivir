@@ -1049,6 +1049,299 @@
 
 
 
+    /*-------------------
+        First section2
+    -------------------*/
+    .first_section2
+    {
+        position: relative;
+    }
+
+
+    .first_section2 .info
+    {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 160px;
+    }
+
+    .first_section2 .info .title
+    {
+        font-size: 36px;
+    }
+
+    .first_section2 .info .title small
+    {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+
+
+    .first_section2 .image
+    {
+        position: absolute;
+        top: 60px;
+        right: 0;
+
+        width: auto;
+
+        pointer-events: none;
+    }
+
+
+
+    .first_section2 .number_cases
+    {
+        position: relative;
+
+        padding: 20px 0;
+    }
+
+
+
+    /*---------------------
+        Second section2
+    ---------------------*/
+    .second_section2
+    {
+        padding: 72px 0;
+    }
+
+
+    .second_section2 .items
+    {
+        margin-top: 40px;
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .second_section2 .items .item
+    {
+        width: calc(50% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+    .second_section2 .items .item.big
+    {
+        width: calc(50% - 32px);
+    }
+
+
+    .second_section2 .message
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------------
+        Third section2
+    --------------------*/
+    .third_section2
+    {
+        padding: 72px 0;
+    }
+
+
+    .third_section2 .block_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .third_section2 .info
+    {
+        width: 100%;
+    }
+
+
+    .third_section2 .items
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------------
+        Fourth section2
+    ---------------------*/
+    .fourth_section2
+    {
+        padding: 72px 0;
+    }
+
+
+    .fourth_section2 .block_desc
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .fourth_section2 .items
+    {
+        width: calc(100% + 20px);
+        margin-top: 40px;
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .fourth_section2 .items .item
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+
+
+    /*--------------------
+        Fifth section2
+    --------------------*/
+    .fifth_section2
+    {
+        padding: 72px 0;
+    }
+
+
+    .fifth_section2 .use_and_dose
+    {
+        width: 100%;
+    }
+
+
+    .fifth_section2 .col_right
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------------
+        Sixth section2
+    --------------------*/
+    .sixth_section2
+    {
+        padding: 72px 0;
+    }
+
+
+    .sixth_section2 .row
+    {
+        margin-left: 0;
+    }
+
+    .sixth_section2 .item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------------
+        Seventh section2
+    ----------------------*/
+    .seventh_section2
+    {
+        padding: 72px 0;
+    }
+
+
+    .seventh_section2 .info
+    {
+        width: 100%;
+        padding: 24px 80px 40px 28px;
+    }
+
+
+    .seventh_section2 .analysis
+    {
+        width: 376px;
+        margin-top: 32px;
+    }
+
+
+    .seventh_section2 .info .img
+    {
+        right: 0;
+        bottom: -140px;
+        left: auto;
+    }
+
+
+
+    /*---------------------
+        Eighth section2
+    ---------------------*/
+    .eighth_section2
+    {
+        padding: 72px 0;
+    }
+
+
+    .eighth_section2 .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .eighth_section2 .items
+    {
+        width: calc(100% + 12px);
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .eighth_section2 .items .item
+    {
+        width: calc(20% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+        padding: 12px;
+    }
+
+
+
+    /*--------------------
+        Ninth section2
+    --------------------*/
+    .ninth_section2
+    {
+        padding: 72px 0 0;
+    }
+
+
+    .ninth_section2 .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+        padding: 0;
+    }
+
+
+    .ninth_section2 .map_wrap
+    {
+        min-height: 650px;
+    }
+
+
+    .ninth_section2 footer
+    {
+        margin-top: 0 !important;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

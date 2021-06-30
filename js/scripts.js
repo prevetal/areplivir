@@ -9,12 +9,12 @@ $(() => {
 
 
 	// Всплывашка подтверждения
-	$.fancybox.open({
-		src: '#confirm_modal',
-		type: 'inline',
-		touch: false,
-		modal: true
-	})
+	// $.fancybox.open({
+	// 	src: '#confirm_modal',
+	// 	type: 'inline',
+	// 	touch: false,
+	// 	modal: true
+	// })
 
 
 	// Главная страница
