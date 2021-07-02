@@ -1057,6 +1057,12 @@
         position: relative;
     }
 
+    .first_section2 .cont
+    {
+        padding-top: 69px;
+        padding-bottom: 80px;
+    }
+
 
     .first_section2 .info
     {
@@ -1081,7 +1087,7 @@
     .first_section2 .image
     {
         position: absolute;
-        top: 60px;
+        top: 124px;
         right: 0;
 
         width: auto;
@@ -1267,6 +1273,7 @@
     {
         width: 376px;
         margin-top: 32px;
+        margin-left: 0;
     }
 
 
@@ -1314,30 +1321,32 @@
     /*--------------------
         Ninth section2
     --------------------*/
-    .ninth_section2
-    {
-        padding: 72px 0 0;
-    }
-
-
     .ninth_section2 .block_title
     {
         font-size: 28px;
 
         margin-bottom: 32px;
-        padding: 0;
+        padding: 32px 0 0;
     }
 
 
     .ninth_section2 .map_wrap
     {
-        min-height: 650px;
+        min-height: 550px;
     }
 
 
-    .ninth_section2 footer
+
+    .second_section2,
+    .third_section2,
+    .fourth_section2,
+    .fifth_section2,
+    .sixth_section2,
+    .seventh_section2,
+    .eighth_section2
     {
-        margin-top: 0 !important;
+        padding-top: 69px;
+        padding-bottom: 69px;
     }
 
 

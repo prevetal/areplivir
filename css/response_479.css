@@ -500,7 +500,7 @@
     -------------------*/
     .first_section2 .info
     {
-        padding-bottom: 120px;
+        padding-bottom: 156px;
     }
 
     .first_section2 .info .title
@@ -521,12 +521,16 @@
 
     .first_section2 .image
     {
-        top: 164px;
+        top: 232px;
+        right: 0;
+        left: 20px;
+
+        margin: auto;
     }
 
     .first_section2 .image img
     {
-        width: 272px;
+        width: 312px;
     }
 
 

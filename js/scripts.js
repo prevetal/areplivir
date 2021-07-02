@@ -9,12 +9,12 @@ $(() => {
 
 
 	// Всплывашка подтверждения
-	// $.fancybox.open({
-	// 	src: '#confirm_modal',
-	// 	type: 'inline',
-	// 	touch: false,
-	// 	modal: true
-	// })
+	$.fancybox.open({
+		src: '#confirm_modal',
+		type: 'inline',
+		touch: false,
+		modal: true
+	})
 
 
 	// Главная страница
@@ -39,12 +39,25 @@ $(() => {
 	}
 
 
-	$('.page_anchors button').click(function (e) {
+	$('.page_anchors button:not(.scroll_btn)').click(function (e) {
 		e.preventDefault()
 
 		let sectionIndex = $(this).data('anchor')
 
 		$('.one_page').moveTo(sectionIndex)
+	})
+
+
+	// Плавная прокрутка к якорю
+	$('.scroll_btn').click(function (e) {
+		e.preventDefault()
+
+		let href = $(this).data('anchor'),
+			addOffset = 120
+
+		if ($(this).data('offset')) addOffset = $(this).data('offset')
+
+		$('html, body').stop().animate({ scrollTop: $(href).offset().top - addOffset }, 1000)
 	})
 })
 

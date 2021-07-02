@@ -947,7 +947,7 @@
 
     .first_section2 .image
     {
-        top: 100px;
+        top: 180px;
     }
 
     .first_section2 .image img
@@ -1228,7 +1228,12 @@
     --------------------*/
     .ninth_section2
     {
-        padding: 60px 0 0;
+        padding: 69px 0 0;
+    }
+
+    .ninth_section2 .block_title
+    {
+        padding: 0;
     }
 
 

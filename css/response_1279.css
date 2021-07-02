@@ -785,6 +785,13 @@
     /*-------------------
         First section2
     -------------------*/
+    .first_section2 .cont
+    {
+        padding-top: 76px;
+        padding-bottom: 72px;
+    }
+
+
     .first_section2 .info
     {
         width: 50%;
@@ -1107,10 +1114,34 @@
     }
 
 
+    .ninth_section2 .map_wrap
+    {
+        min-height: 450px;
+    }
+
     .ninth_section2 .map_wrap .info
     {
         width: 428px;
         padding: 24px;
+    }
+
+
+
+    .second_section2,
+    .third_section2,
+    .fourth_section2,
+    .fifth_section2,
+    .sixth_section2,
+    .seventh_section2,
+    .eighth_section2
+    {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .seventh_section2
+    {
+        padding-bottom: 92px;
     }
 
 
