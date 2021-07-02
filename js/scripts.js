@@ -9,11 +9,17 @@ $(() => {
 
 
 	// Всплывашка подтверждения
-	$.fancybox.open({
-		src: '#confirm_modal',
-		type: 'inline',
-		touch: false,
-		modal: true
+	if (get_cookie('confirm_modal') == null) {
+		$.fancybox.open({
+			src: '#confirm_modal',
+			type: 'inline',
+			touch: false,
+			modal: true
+		})
+	}
+
+	$('#confirm_modal .links .close').click(() => {
+		document.cookie = 'confirm_modal=false'
 	})
 
 
@@ -157,3 +163,14 @@ $(window).scroll(() => {
 		? $('header').addClass('fixed')
 		: $('header').removeClass('fixed')
 })
+
+
+
+function get_cookie(cookie_name) {
+	var results = document.cookie.match('(^|;) ?' + cookie_name + '=([^;]*)(;|$)')
+
+	if (results)
+		return (unescape(results[2]))
+	else
+		return null
+}
