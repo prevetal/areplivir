@@ -1146,6 +1146,241 @@
 
 
 
+    /*---------------------------
+        Omicron first section
+    ---------------------------*/
+    .omicron_first_section
+    {
+        margin-top: 76px;
+    }
+
+
+    .omicron_first_section .cont
+    {
+        height: 400px;
+    }
+
+
+    .omicron_first_section .info
+    {
+        width: 372px;
+    }
+
+    .omicron_first_section .info .title
+    {
+        font-size: 64px;
+    }
+
+    .omicron_first_section .info .desc
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-top: 20px;
+    }
+
+    .omicron_first_section .info .link
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------------
+        Omicron symptoms
+    ----------------------*/
+    .omicron_symptoms
+    {
+        padding: 64px 0 146px;
+    }
+
+
+    .omicron_symptoms .block_title
+    {
+        font-size: 40px;
+        line-height: 44px;
+
+        margin-bottom: 28px;
+    }
+
+
+
+    .omicron_symptoms .peculiarities .title,
+    .omicron_symptoms .symptoms .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .omicron_symptoms .peculiarities .columns
+    {
+        column-gap: 24px;
+    }
+
+    .omicron_symptoms .peculiarities .columns > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .omicron_symptoms .peculiarities .item
+    {
+        min-height: 52px;
+        padding-left: 68px;
+    }
+
+
+    .omicron_symptoms .peculiarities .number
+    {
+        font-size: 26px;
+        line-height: 52px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+    .omicron_symptoms .peculiarities .number:after
+    {
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+    }
+
+
+    .omicron_symptoms .peculiarities .name
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .omicron_symptoms .peculiarities .desc
+    {
+        line-height: 20px;
+    }
+
+
+    .omicron_symptoms .symptoms .item
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .omicron_symptoms .symptoms .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .omicron_symptoms .symptoms .icon + *
+    {
+        width: calc(100% - 85px);
+    }
+
+
+
+    .omicron_symptoms .number_cases
+    {
+        padding: 16px 0;
+    }
+
+    .omicron_symptoms .number_cases .title
+    {
+        font-size: 24px;
+    }
+
+    .omicron_symptoms .number_cases .item
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------------
+        Omicron slogan
+    --------------------*/
+    .omicron_slogan
+    {
+        font-size: 50px;
+        line-height: 100%;
+
+        padding: 52px 0;
+    }
+
+    .omicron_slogan sup
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+
+    /*-----------------
+        Any viruses
+    -----------------*/
+    .any_viruses
+    {
+        padding: 64px 0;
+    }
+
+
+    .any_viruses .block_title
+    {
+        font-size: 38px;
+        line-height: 44px;
+
+        margin-bottom: 36px;
+    }
+
+    .any_viruses .block_title sup
+    {
+        font-size: 18px;
+    }
+
+
+    .any_viruses .desc
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        width: 310px;
+        padding: 32px 28px;
+    }
+
+
+    .any_viruses .items
+    {
+        width: 332px;
+    }
+
+    .any_viruses .items > *
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        min-height: 52px;
+        padding-left: 68px;
+
+        background-size: 52px auto;
+    }
+
+    .any_viruses .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .any_viruses .image
+    {
+        width: 320px;
+        margin-top: 0;
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
